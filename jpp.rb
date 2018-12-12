@@ -3,14 +3,14 @@ require 'formula'
 class Jpp < Formula
   desc "JSON Prettier Printer that occupies a minimal number of lines while pretty-printing given JSON."
   homepage "https://godoc.org/github.com/tanishiking/jpp"
-  version '0.0.2'
+  version '0.0.3'
 
   if Hardware::CPU.is_64_bit?
-    url "https://github.com/tanishiking/jpp/releases/download/0.0.2/jpp_darwin_amd64.zip"
-    sha256 "aaa047c98c86e482e6d231cbc2a3dcfe3f5b9471e30192efd6cb2fc18f3a316a"
+    url "https://github.com/tanishiking/jpp/releases/download/0.0.3/jpp_darwin_amd64.zip"
+    sha256 "7cf3020ac383eabe3c471f668cedfbcd4b9e14970401d1ae9dde1d48978ee3f3"
   else
-    url "https://github.com/tanishiking/jpp/releases/download/0.0.2/jpp_darwin_386.zip"
-    sha256 "64eda5e8eb2a2cd9ab93961876c07f871ad272d6d22bff7f92f577089ecf6b8c"
+    url "https://github.com/tanishiking/jpp/releases/download/0.0.3/jpp_darwin_386.zip"
+    sha256 "119048033c303054b47e36b297552f502a35a5d71f2cd4c5ab61c1b9813e2686"
   end
 
   def install
